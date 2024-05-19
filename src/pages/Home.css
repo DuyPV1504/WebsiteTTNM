@@ -1,0 +1,27 @@
+.content {
+    position: absolute;
+    top: 30%;
+    right: 33%;
+    width: 500px;
+}
+
+.content2 {
+    position: absolute;
+    top: 5%;
+    right: 33%;
+    width: 500px;
+}
+
+.content3 {
+    position: absolute;
+    top: 0%;
+    right: 33%;
+    width: 500px;
+}
+
+.content1 {
+    position: absolute;
+    top: 36%;
+    right: 45%;
+    width: 500px;
+}

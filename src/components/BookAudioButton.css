@@ -1,0 +1,23 @@
+.audio-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .audio-button button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .audio-button button.play {
+    background-color: #008cba;
+    color: white;
+  }
+  
+  .audio-button button.pause {
+    background-color: #f44336;
+    color: white;
+  }

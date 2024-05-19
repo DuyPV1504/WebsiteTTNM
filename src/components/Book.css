@@ -1,0 +1,31 @@
+.all_books {
+  width: 100%;
+  margin-top: 100px;
+
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(360px, 1fr)) [auto-fill];
+  grid-template-columns: repeat(3, minmax(360px, 1fr));
+  grid-gap: 5rem;
+}
+
+.news_book {
+  text-decoration: none;
+  color: #080808;
+  background-color: #fff;
+  padding: 20px;
+  width: 450px;
+  height: auto;
+  border-radius: 20px;
+  border-color: #080808;
+  --webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16),
+    0 3px 3px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+.all__news {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(360px, 1fr)) [auto-fill];
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-gap: 4rem;
+}
